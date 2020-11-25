@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c9c51f-6c6d-42dd-bcaf-3b616c7d0b63" name="Default Changelist" comment="" />
+    <list default="true" id="e4c9c51f-6c6d-42dd-bcaf-3b616c7d0b63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/web/user/register.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -183,10 +188,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.57" />
       <item itemvalue="Application.UserDao" />
       <item itemvalue="JUnit.UserDaoTest.testAdd" />
       <item itemvalue="JUnit.UserDaoTest.testFindByUserName" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.57" />
     </list>
     <recent_temporary>
       <list>
@@ -229,6 +234,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606188872601</updated>
       <workItem from="1606188875383" duration="21852000" />
+      <workItem from="1606269883470" duration="495000" />
     </task>
     <servers />
   </component>
