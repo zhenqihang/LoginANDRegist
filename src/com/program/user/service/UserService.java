@@ -12,4 +12,13 @@ public class UserService {
 
         userDao.addUser(user);
     }
+
+    //登录功能
+    public User login(User form) throws UserException {
+        User user = userDao.findUserName(form.getUsername());
+        if(user == null) throw new UserException("用户不存在");
+
+        if(!form.getUsername().equals(user.getPassword())) throw new UserException("密码输入错误");
+        return user;
+    }
 }
