@@ -25,12 +25,14 @@ public class RegisterServlet extends HttpServlet {
         //封装表单数据
         User form = CommonUtils.toBean(request.getParameterMap(),User.class);
 
+
+
         //表单校验
         Map<String,String> errors = new HashMap<>();
         String username = form.getUsername();
         String pwd = form.getPassword();
-//        String verifyCode = form.getVerifyCode();
-//        String sessionVerifyCode = (String)request.getSession().getAttribute("session_vcode");
+        String verifyCode = form.getVerifyCode();
+        String sessionVerifyCode = (String)request.getSession().getAttribute("session_vcode");
         if(username ==null || username.trim().isEmpty()) {
             errors.put("username","用户名不能为空");
         } else if(username.length()<3 || username.length()>10) {
@@ -41,13 +43,14 @@ public class RegisterServlet extends HttpServlet {
         } else if(pwd.length()<6 || pwd.length()>15) {
             errors.put("password","密码长度必须再6-15之间");
         }
-//        if(verifyCode ==null || verifyCode.trim().isEmpty()) {
-//            errors.put("verifyCode","验证码不能为空");
-//        } else if(verifyCode.length() != 4) {
-//            errors.put("verifyCode","请输入正确的验证码");
-//        }  else if(verifyCode.equals(sessionVerifyCode)) {
-//            errors.put("verifyCode","请输入正确的验证码");
-//        }
+        if(verifyCode ==null || verifyCode.trim().isEmpty()) {
+            errors.put("verifyCode","验证码不能为空");
+        } else if(verifyCode.length() != 4) {
+            errors.put("verifyCode","请输入正确的验证码");
+        }  else if(verifyCode.equals(sessionVerifyCode)) {
+            errors.put("verifyCode","请输入正确的验证码");
+        }
+
 
         if(errors!=null&&errors.size()>0) {
             request.setAttribute("errors",errors);
