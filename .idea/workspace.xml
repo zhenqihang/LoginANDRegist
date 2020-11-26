@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4c9c51f-6c6d-42dd-bcaf-3b616c7d0b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/program/user/web/servlet/VerifyCodeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/homeWork_war_exploded/WEB-INF/classes/com/program/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/homeWork_war_exploded/WEB-INF/classes/com/program/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/homeWork_war_exploded/WEB-INF/classes/com/program/user/web/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/homeWork_war_exploded/WEB-INF/classes/com/program/user/web/servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/homeWork_war_exploded/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/homeWork_war_exploded/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/homeWork/com/program/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homeWork/com/program/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/homeWork/com/program/user/web/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homeWork/com/program/user/web/servlet/loginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/program/user/web/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/program/user/web/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/register.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="e4c9c51f-6c6d-42dd-bcaf-3b616c7d0b63" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +235,7 @@
       <workItem from="1606188875383" duration="21852000" />
       <workItem from="1606269883470" duration="5451000" />
       <workItem from="1606355009449" duration="66000" />
-      <workItem from="1606390539187" duration="3282000" />
+      <workItem from="1606390539187" duration="3781000" />
     </task>
     <task id="LOCAL-00001" summary="11/25 第二次提交，登录完成">
       <created>1606275424137</created>
@@ -254,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606275424137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11/26 第一次提交，添加注册验证码">
+      <created>1606393961286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606393961286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +259,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11/25 第二次提交，登录完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/25 第二次提交，登录完成" />
+    <MESSAGE value="11/26 第一次提交，添加注册验证码" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/26 第一次提交，添加注册验证码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606206196602">
